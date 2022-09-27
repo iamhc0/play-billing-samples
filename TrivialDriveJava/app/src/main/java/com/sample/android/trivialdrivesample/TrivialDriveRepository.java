@@ -153,14 +153,14 @@ public class TrivialDriveRepository {
      */
     public void buySku(Activity activity, String sku) {
         String oldSku = null;
-        switch (sku) {
+       /* switch (sku) {
             case SKU_INFINITE_GAS_MONTHLY:
                 oldSku = SKU_INFINITE_GAS_YEARLY;
                 break;
             case SKU_INFINITE_GAS_YEARLY:
                 oldSku = SKU_INFINITE_GAS_MONTHLY;
                 break;
-        }
+        }*/
         if ( null != oldSku ) {
             billingDataSource.launchBillingFlow(activity, sku, oldSku);
         } else {
