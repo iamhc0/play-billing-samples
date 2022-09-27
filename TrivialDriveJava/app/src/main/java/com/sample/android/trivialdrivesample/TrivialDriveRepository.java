@@ -46,8 +46,8 @@ public class TrivialDriveRepository {
     static final public String SKU_PREMIUM = "premium";
     static final public String SKU_GAS = "gas";
     // SKU for subscription purchases (infinite gas)
-    static final public String SKU_INFINITE_GAS_MONTHLY = "infinite_gas_monthly";
-    static final public String SKU_INFINITE_GAS_YEARLY = "infinite_gas_yearly";
+    static final public String SKU_INFINITE_GAS_MONTHLY = "item_1m";
+    static final public String SKU_INFINITE_GAS_YEARLY = "item_1year";
     static final String TAG = "TrivialDrive:" + TrivialDriveRepository.class.getSimpleName();
     static final String[] INAPP_SKUS = new String[]{SKU_PREMIUM, SKU_GAS};
     static final String[] SUBSCRIPTION_SKUS = new String[]{SKU_INFINITE_GAS_MONTHLY,
